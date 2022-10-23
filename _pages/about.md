@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: AI Researcher @ {<a href='https://rll.berkeley.edu/'>UC Berkeley Robot Learning Lab</a>, <a href='https://research.google/teams/brain/'>Google Brain</a>, <a href='https://bair.berkeley.edu/'>BAIR</a>}. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
