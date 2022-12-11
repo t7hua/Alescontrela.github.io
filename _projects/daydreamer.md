@@ -9,6 +9,10 @@ category: work
 ### Authors
 <a href="https://twitter.com/philippswu">Philipp Wu</a>\*, <a href="https://twitter.com/aleescontrela">Alejandro Escontrela</a>\*, <a href="https://danijar.com/">Danijar Hafner</a>\*, <a href="https://goldberg.berkeley.edu/">Ken Goldberg</a>, <a  href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a> (\* = equal authors)
 
+## Publication info
+<div class="publications">
+{% bibliography -f papers -q @*[title=Daydreamer: World Models for Physical Robot Learning]* %}
+</div>
 
 ## Learning to walk in the real world in under an hour
 
@@ -113,7 +117,7 @@ learning.
 
 
 ## Acknowledgements
-Acknowledgements We thank <a href="https://stepjam.github.io/">Stephen James</a> and <a href="https://kerrj.github.io/">Justin Kerr</a> for helpful suggestions and help with
+We thank <a href="https://stepjam.github.io/">Stephen James</a> and <a href="https://kerrj.github.io/">Justin Kerr</a> for helpful suggestions and help with
 printing the protective shell of the quadruped robot. We thank <a href="https://www.linkedin.com/in/ademi-adeniji">Ademi Adeniji</a> for help with setting up
 the XArm robot and <a href="https://twitter.com/ravenhuang4?lang=en">Raven Huang</a> for help with setting up the UR5 robot. This work was supported
 in part by an NSF Fellowship, NSF NRI #2024675, and the Vanier Canada Graduate Scholarship.

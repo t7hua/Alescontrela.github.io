@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Learning to Walk on Complex Terrains with Vision
+description: Examining the role of vision in robot locomotion
+img: assets/img/visual_locomotion.png
+redirect: https://www.youtube.com/watch?v=1X-NH-EuynQ
 importance: 2
 category: work
 ---
