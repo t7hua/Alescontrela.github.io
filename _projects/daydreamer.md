@@ -113,6 +113,7 @@ learning.
   <li><a href="https://news7g.com/daydreamer-world-model-for-learning-robot-physics/">NEWS7g</a></li>
   <li><a href="https://www.actuia.com/actualite/daydreamer-former-les-robots-dans-le-monde-reel-grace-a-lapprentissage-par-renforcement-en-ligne/">ActuIA</a></li>
   <li><a href="https://www.i-programmer.info/news/105-artificial-intelligence/15646-robot-dog-from-rolling-on-floor-to-walking-in-1-hour.html">I Programmer</a></li>
+  <li><a href="https://engineering.berkeley.edu/news/2022/10/step-by-step/">Berkeley Engineering</a></li>
 </ul>
 
 

@@ -58,34 +58,52 @@
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/Alescontrela/Numpy-CNN">Numpy-CNN</a>
+      year: 2018
+      description: A numpy-only implementation of a Convolutional Neural Network, from the ground up. 
+    - title: <a href="https://github.com/Alescontrela/AMP_for_hardware">AMP for Hardware</a>
+      year: 2021
+      description: Codebase for the <a href="https://github.com/Alescontrela/AMP_for_hardware">Adversarial Motion Priors Make Good Substitutes for Complex Reward Functions</a> project.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - year: 2022
       items:
-        - Description 1.
-        - Description 2.
+        - <a href="https://iros2022.org/2022/10/30/award-winners/">IROS 2022 Best Paper Award Finalist</a> (11 nominations from >1700 papers)
+        - <a href="https://roboticsconference.org/202/program/papers/034/"> RSS 2022 Best Systems Paper Award</a>
+    - year: 2021
+      items: 
+        - MIT Presidential Fellowship (declined)
+        - UC Berkeley Chancellor's Fellowship (accepted)
+        - National Science Foundation Graduate Research Fellowship (accepted)
+        - MIT Lemelson Fellowship (declined)
+        - Stanford School of Engineering Fellowship (declined)
+    - year: 2020
+      items:
+        - Lemelson MIT Student Prize Competition Finalists
+    - year: 2019
+      items:
+        - Hispanic Scholarship Fund Award
+        - Google NYC Accesibility Hackation (1st place)
+    - year: 2017
+      items:
+        - Walt Disney World Design and Engineering Award
+        - UCF Pegasus Scholarship
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
