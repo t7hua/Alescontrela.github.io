@@ -22,4 +22,4 @@ I'm Alejandro, a 2nd year PhD student in the EECS program at UC Berkeley, advise
 I have interned at Google Brain for 3 years, and completed my undergraduate education at Georgia Tech, advised by <a href='https://dellaert.github.io/'>Frank Dellart</a>. My work is supported by the <a href='https://www.nsfgrfp.org/'>NSF</a> and the UC Berkeley Chancellor's Fellowship.
 
 
-<span class="font-weight-bold">For undergrads:</span> if you're interested in mentorship / collaboration, please fill out <a href='https://forms.gle/XkMJHQWG7D9GNXtc9'>this google form</a>. I normally work with students close to graduation who have taken intro to AI (CS188/288 or equivalent), reinforcement learning (CS285), and/or robotics (CS287), and have a GPA >= 3.5.
+<span class="font-weight-bold">For undergrads:</span> if you're interested in mentorship / collaboration, please fill out <a href='https://forms.gle/XkMJHQWG7D9GNXtc9'>this google form</a>.
