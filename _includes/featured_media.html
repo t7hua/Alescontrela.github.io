@@ -1,0 +1,33 @@
+<div class="news">
+  <h2>featured media</h2>
+  <!-- <table class="table table-sm table-borderless"> -->
+  {%- assign featured_media = site.featured_media | sort: "importance" -%}
+  {%- assign featured_media_size = site.featured_media | size -%}
+  {% if site.featured_media_limit %}
+  {% assign featured_media_limit = site.featured_media_limit %}
+  {% else %}
+  {% assign featured_media_limit = featured_media_size %}
+  {% endif %}
+
+  <div class="row justify-content-md-center">
+
+    {% for item in featured_media limit: featured_media_limit %}
+
+    <div class="col col-sm-3">
+      <div class="card border-0">
+        {% if item.padding -%}
+        <img style="padding: 5% 5% 5% 5%;" class="card-img-top border rounded" src="{{ item.img }}"
+          alt="Card image cap">
+        {%- else -%}
+        <img class="card-img-top border rounded" src="{{ item.img }}" alt="Card image cap">
+        {%- endif %}
+        <div class="card-body text-truncate">
+          <a href="{{ item.redirect }}" class="stretched-link"> {{ item.caption }} </a>
+        </div>
+      </div>
+    </div>
+
+
+    {%- endfor %}
+  </div>
+</div>
