@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 I'm Alejandro, a 2nd year PhD student in the EECS program at UC Berkeley, advised by Pieter Abbeel and Ken Goldberg. I am broadly interested in reinforcement learning, unsupervised learning, and robotics. Specifically, my work focuses on extracting behavior priors for RL agents from internet data, making RL super sample efficient, and pushing robots to their limits. I also spend 20% of my time at Google Brain, where I help the Google Robotics team make robots more intelligent.
 
-I have interned at Google Brain for 3 years, and completed my undergraduate education at Georgia Tech, advised by <a href='https://dellaert.github.io/'>Frank Dellart</a>. My work is supported by the <a href='https://www.nsfgrfp.org/'>NSF</a> and the UC Berkeley Chancellor's Fellowship.
+I have interned at Google Brain 6 times, and completed my undergraduate education at Georgia Tech, advised by <a href='https://dellaert.github.io/'>Frank Dellart</a>. My work is supported by the <a href='https://www.nsfgrfp.org/'>NSF</a> and the UC Berkeley Chancellor's Fellowship.
 
 
 <span class="font-weight-bold">For undergrads:</span> if you're interested in mentorship / collaboration, please fill out <a href='https://forms.gle/XkMJHQWG7D9GNXtc9'>this google form</a>.

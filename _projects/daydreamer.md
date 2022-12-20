@@ -6,7 +6,23 @@ img: assets/img/daydreamer_splash.png
 importance: 1
 category: work
 ---
-### Authors
+
+<div class="row justify-content-sm-center">
+    <a href="https://www.dailymail.co.uk/sciencetech/article-11024615/Robot-dog-walk-ONE-hour-training-scientists-hope-play-fetch-future.html" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/dailymail.png" title="example image" class="img-fluid" %}
+    </a>
+    <a href="https://www.technologyreview.com/2022/07/18/1056059/robot-dog-ai-reinforcement/" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/mittechreview.png" title="example image" class="img-fluid" %}
+    </a>
+    <a href="https://techcrunch.com/2022/07/21/berkeley-shows-off-accelerated-learning-that-puts-robots-on-their-feet-in-minutes/" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/techcrunch.png" title="example image" class="img-fluid" %}
+    </a>
+    <a href="https://techxplore.com/news/2022-07-daydreamer-algorithm-quickly-robots-behaviors.html" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
+        {% include figure.html path="assets/img/techxplore.png" title="example image" class="img-fluid" %}
+    </a>
+</div>
+
+## Authors
 <a href="https://twitter.com/philippswu">Philipp Wu</a>\*, <a href="https://twitter.com/aleescontrela">Alejandro Escontrela</a>\*, <a href="https://danijar.com/">Danijar Hafner</a>\*, <a href="https://goldberg.berkeley.edu/">Ken Goldberg</a>, <a  href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a> (\* = equal authors)
 
 ## Publication info
@@ -28,37 +44,21 @@ The A1 quadruped shown below learns to walk with DayDreamer in ~1 hour, from scr
 
 <br/>
 <div class="row">
-    <div class="text-center col-sm mt-3 mt-md-0">
-        <h2><a href="https://arxiv.org/pdf/2206.14176.pdf">Paper</a></h2>
+    <div class="text-center col-3 col-sm-3 mt-3 mt-md-0">
+        <h4><a href="https://arxiv.org/pdf/2206.14176.pdf">Paper</a></h4>
     </div>
-    <div class="text-center col-sm mt-3 mt-md-0">
-        <h2><a href="https://twitter.com/danijarh/status/1542170248706609152">Twitter</a></h2>
+    <div class="text-center col-3 col-sm-3 mt-3 mt-md-0">
+        <h4><a href="https://twitter.com/danijarh/status/1542170248706609152">Twitter</a></h4>
     </div>
-    <div class="text-center col-sm mt-3 mt-md-0">
-        <h2><a href="https://www.youtube.com/watch?v=A6Rg0qRwTYs">Talk</a></h2>
+    <div class="text-center col-3 col-sm-3 mt-3 mt-md-0">
+        <h4><a href="https://www.youtube.com/watch?v=A6Rg0qRwTYs">Talk</a></h4>
     </div>
-    <div class="text-center col-sm mt-3 mt-md-0">
-        <h2><a href="https://github.com/danijar/daydreamer">Code</a></h2>
+    <div class="text-center col-3 col-sm-3 mt-3 mt-md-0">
+        <h4><a href="https://github.com/danijar/daydreamer">Code</a></h4>
     </div>
 </div>
 
 <br/>
-<br/>
-<div class="row justify-content-sm-center">
-    <!-- <a href="#" class="btn btn-primary stretched-link">Go somewhere</a> -->
-    <a href="https://www.dailymail.co.uk/sciencetech/article-11024615/Robot-dog-walk-ONE-hour-training-scientists-hope-play-fetch-future.html" class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dailymail.png" title="example image" class="img-fluid" %}
-    </a>
-    <a href="https://www.technologyreview.com/2022/07/18/1056059/robot-dog-ai-reinforcement/" class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mittechreview.png" title="example image" class="img-fluid" %}
-    </a>
-    <a href="https://techcrunch.com/2022/07/21/berkeley-shows-off-accelerated-learning-that-puts-robots-on-their-feet-in-minutes/" class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/techcrunch.png" title="example image" class="img-fluid" %}
-    </a>
-    <a href="https://techxplore.com/news/2022-07-daydreamer-algorithm-quickly-robots-behaviors.html" class="col-sm-2 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/techxplore.png" title="example image" class="img-fluid" %}
-    </a>
-</div>
 
 ## Abstract
 
@@ -92,11 +92,35 @@ learning.
 ## Robots
 
 {% raw %}
-<div class="embed-responsive embed-responsive-21by9">
-<video autoplay="" muted="" loop=""><source src="/assets/vid/robots.mp4"></video>
+<div class="card-deck">
+  <div class="card">
+    <img class="card-img-top" src="/assets/gif/1_a1.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center">A1 Quadruped Walking</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/assets/gif/2_ur5.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center">UR5 Multi-Object Visual Pick Place</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/assets/gif/3_xarm.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center">XArm Visual Pick and Place</h5>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="/assets/gif/4_sphero.gif" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title text-center">Sphero Ollie Visual Navigation</h5>
+    </div>
+  </div>
 </div>
 {% endraw %}
 
+<br/>
 ## All Media Coverage
 
 <ul>
