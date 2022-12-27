@@ -10,7 +10,8 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{%- for y in page.years %}
+{%- assign years = page.years | sort | reverse %}
+{%- for y in years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
