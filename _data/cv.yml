@@ -16,14 +16,14 @@
       year: 2021 - Present
       description:
         - Pursuing PhD in Artificial Intelligence and Robotics
-        - Advised by Pieter Abbeel and Ken Goldberg
-        - Performing reinforcement learning, generative modeling, and robotics research at Berkeley Artificial Intelligence Research
+        - Advised by <a href="http://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a> and <a href="https://goldberg.berkeley.edu/">Ken Goldberg</a>
+        - Performing reinforcement learning, generative modeling, and robotics research at <a href="https://bair.berkeley.edu/">Berkeley Artificial Intelligence Research</a>
     - title: Bachelor's degree
       institution: Georgia Institute of Technology
       year: 2018 - 2021
       description:
         - Majored in Aerospace Engineering, with a minor in Computer Science
-        - Undergraduate research advised by Frank Dellaert
+        - Undergraduate research advised by <a href="https://dellaert.github.io/">Frank Dellaert</a>
 
 - title: Experience
   type: time_table
@@ -33,6 +33,7 @@
       year: Aug 2020 - Present
       description:
         - Part-time researcher at the Google Brain Robotics team. Studying locomotion, world models, and generative modeling.
+        - Advised by <a href="https://www.linkedin.com/in/atil-iscen-32737945">Atil Iscen</a> and <a href="https://www.jie-tan.net/">Jie Tan</a>
     - title: "Research/Software Engineering Intern"
       institution: Google Brain
       year: May 2020 - Aug 2020
@@ -47,7 +48,7 @@
       institution: Google Cloud
       year: May 2019 - Aug 2019
       description:
-        - Worked with David Cohen at Google Cloud to develop DapperMC, a probabilistic pro-gramming library tailored to modeling Remote Procedure Calls (RPC). Google engineers now use DapperMC to obtain a statistical understanding of datacenter performance, detect anomalous machines, and benchmark the effects of software updates on RPC latency.
+        -  Helped develop Google Cloud DapperMC, a probabilistic pro-gramming library tailored to modeling Remote Procedure Calls (RPC). Google engineers now use DapperMC to obtain a statistical understanding of datacenter performance, detect anomalous machines, and benchmark the effects of software updates on RPC latency.
 
     - title: Software Engineering Intern
       institution: Northrop Grumman
