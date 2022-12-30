@@ -10,7 +10,7 @@ profile:
   image_cicular: false # crops the image to make it circular
   address: >
     <p>Berkeley Way West</p>
-    <p>2121 Berkeley Way, Berkeley, CA 94704, United States</p>
+    <p>2121 Berkeley Way, Berkeley, CA 94704</p>
 
 featured_media: true
 news: true  # includes a list of news items
@@ -18,11 +18,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Contact: mail AT escontrela.me
 
-I'm Alejandro, a 2nd year PhD student in the EECS program at UC Berkeley, advised by Pieter Abbeel and Ken Goldberg. I am broadly interested in reinforcement learning, unsupervised learning, and robotics. Specifically, my work focuses on extracting behavior priors for RL agents from internet data, making RL super sample efficient, and pushing robots to their limits. I also spend 20% of my time at Google Brain, where I help the Google Robotics team make robots more intelligent.
+I'm a PhD student advised by [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) and [Ken Goldberg](https://goldberg.berkeley.edu/), and an intern at [Google Brain](https://research.google/teams/brain/), where I have worked for three years. I completed my undergrad at Georgia Tech, advised by [Frank Dellaert](https://dellaert.github.io/). My work is supported by the [NSF](https://www.nsfgrfp.org/) and the UC Berkeley Chancellor's Fellowship.
 
-I have interned at Google Brain 6 times, and completed my undergraduate education at Georgia Tech, advised by <a href='https://dellaert.github.io/'>Frank Dellart</a>. My work is supported by the <a href='https://www.nsfgrfp.org/'>NSF</a> and the UC Berkeley Chancellor's Fellowship.
+I am broadly interested in reinforcement learning, unsupervised learning, and robotics. Specifically, my work focuses on extracting behavior priors for RL agents from internet data, making RL super sample efficient, and leveraging large generative models as priors.
 
+Contact: <span class="font-weight-bold">mail AT escontrela.me</span>
 
 <span class="font-weight-bold">For undergrads:</span> if you're interested in mentorship / collaboration, please fill out <a href='https://forms.gle/XkMJHQWG7D9GNXtc9'>this google form</a>.

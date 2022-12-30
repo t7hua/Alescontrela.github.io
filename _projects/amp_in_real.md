@@ -52,10 +52,10 @@ category: work
 
 <div class="row">
     <div class="text col-12 col-sm-12 col-md-6 mt-4 mt-md-0">
-        <p>Training a high-dimensional simulated agent with an under-specified reward function often leads the agent to learn physically infeasible strategies that are ineffective when deployed in the real world. To mitigate these unnatural behaviors, reinforcement learning practitioners often utilize complex reward functions that encourage physically plausible behaviors. However, a tedious labor-intensive tuning process is often required to create hand-designed rewards which might not easily generalize across platforms and tasks. We propose substituting complex reward functions with "style rewards" learned from a dataset of motion capture demonstrations. A learned style reward can be combined with an arbitrary task reward to train policies that perform tasks using naturalistic strategies. These natural strategies can also facilitate transfer to the real world. We build upon Adversarial Motion Priors - an approach from the computer graphics domain that encodes a style reward from a dataset of reference motions - to demonstrate that an adversarial approach to training policies can produce behaviors that transfer to a real quadrupedal robot without requiring complex reward functions. We also demonstrate that an effective style reward can be learned from a few seconds of motion capture data gathered from a German Shepherd and leads to energy-efficient locomotion strategies with natural gait transitions.</p>
+        <p>We propose substituting complex reward functions with motion priors learned from a dataset of motion capture demonstrations. A learned style reward can be combined with an arbitrary task reward to train policies that perform tasks using naturalistic strategies. These natural strategies can also facilitate transfer to the real world. We build upon Adversarial Motion Priors - an approach from the computer graphics domain that encodes a style reward from a dataset of reference motions - to demonstrate that an adversarial approach to training policies can produce behaviors that transfer to a real quadrupedal robot without requiring complex reward functions. We also demonstrate that an effective style reward can be learned from a few seconds of motion capture data gathered from a German Shepherd and leads to energy-efficient locomotion strategies with natural gait transitions.</p>
     </div>
     <div class="text-center col-12 col-sm-12 col-md-6 mt-4 mt-md-0">
-        <img class="card-img-top" src="/assets/gif/amp_arch.gif" alt="Card image cap">
+        <img class="card-img-top" src="/assets/img/amp_arch.png" alt="Card image cap">
     </div>
 </div>
 
@@ -99,10 +99,10 @@ category: work
 ## Motion priors substitute the need for complex style rewards or custom action spaces
 
 <div class="row">
-    <div class="text-center col-12 col-sm-12 col-md-6 mt-4 mt-md-0">
+    <div class="text-center col-12 col-sm-12 col-md-5 mt-4 mt-md-0">
         <img class="card-img-top" src="/assets/img/amp_csr_or_cas.png" alt="Card image cap">
     </div>
-    <div class="text col-12 col-sm-12 col-md-6 mt-4 mt-md-0">
+    <div class="text col-12 col-sm-12 col-md-7 mt-4 mt-md-0">
         <p>Complex reward functions with tens of terms or custom action spaces are normally used to ensure that policies transfer from simulation to reality. The terms in the complex reward function are often used to disincentivize the policy from learning behaviors which exploit the inaccurate simulation dynamics or are inefficient. While policies trained in this manner transfer to hardware, it is often tedious to hand-design giant reward functions and weight their individual components. Additionally, these hand-designed reward functions are often platform-dependent and don't work well across all tasks. Alternatively, researchers have explored defining custom action spaces such as trajectory generators. These hand-defined action spaces prevent the robot from learning undesired behaviors, but often limit the performance of the resulting policy and require significant engineering effort to develop. Adversarial Motion Priors provide a promising alternative to these approaches. Using a small amount of reference data, we can learn a style reward that encourages the agent to learn efficient and aesthetically pleasing behaviors with minimal engineering effort.</p>
     </div>
 </div>
