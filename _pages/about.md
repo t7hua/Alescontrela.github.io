@@ -25,4 +25,4 @@ I am broadly interested in reinforcement learning, unsupervised learning, and ro
 
 Contact: <span class="font-weight-bold">mail AT escontrela.me</span>
 
-<span class="font-weight-bold">For undergrads:</span> if you're interested in mentorship / collaboration, please fill out <a href='https://forms.gle/XkMJHQWG7D9GNXtc9'>this google form</a>.
+<!-- <span class="font-weight-bold">For undergrads:</span> if you're interested in mentorship / collaboration, please fill out <a href='https://forms.gle/XkMJHQWG7D9GNXtc9'>this google form</a>. -->
