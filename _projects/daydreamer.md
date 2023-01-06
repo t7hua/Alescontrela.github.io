@@ -9,16 +9,20 @@ category: work
 
 <div class="row justify-content-sm-center">
     <a href="https://www.dailymail.co.uk/sciencetech/article-11024615/Robot-dog-walk-ONE-hour-training-scientists-hope-play-fetch-future.html" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/dailymail.png" title="example image" class="img-fluid" %}
+        <img style="padding: 5% 5% 5% 5%;" class="card-img border bg-white rounded" src="/assets/img/dailymail.png"
+          alt="Card image cap"> 
     </a>
     <a href="https://www.technologyreview.com/2022/07/18/1056059/robot-dog-ai-reinforcement/" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mittechreview.png" title="example image" class="img-fluid" %}
+        <img style="padding: 5% 5% 5% 5%;" class="card-img border bg-white rounded" src="/assets/img/mittechreview.png"
+          alt="Card image cap"> 
     </a>
     <a href="https://techcrunch.com/2022/07/21/berkeley-shows-off-accelerated-learning-that-puts-robots-on-their-feet-in-minutes/" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/techcrunch.png" title="example image" class="img-fluid" %}
+        <img style="padding: 5% 5% 5% 5%;" class="card-img border bg-white rounded" src="/assets/img/techcrunch.png"
+          alt="Card image cap"> 
     </a>
     <a href="https://techxplore.com/news/2022-07-daydreamer-algorithm-quickly-robots-behaviors.html" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/techxplore.png" title="example image" class="img-fluid" %}
+        <img class="card-img bg-white rounded" src="/assets/img/techxplore.png"
+          alt="Card image cap"> 
     </a>
 </div>
 

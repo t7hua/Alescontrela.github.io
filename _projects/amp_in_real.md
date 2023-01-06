@@ -9,10 +9,12 @@ category: work
 
 <div class="row justify-content-sm-center">
     <a href="https://techcrunch.com/2022/07/21/berkeley-shows-off-accelerated-learning-that-puts-robots-on-their-feet-in-minutes/" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/techcrunch.png" title="example image" class="img-fluid" %}
+        <img style="padding: 5% 5% 5% 5%;" class="card-img border bg-white rounded" src="/assets/img/techcrunch.png"
+          alt="Card image cap"> 
     </a>
     <a href="https://www.youtube.com/watch?v=h8AUJwPdTIE&t=1s" class="col-6 col-sm-6 col-md-3 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/techcrunch_robotics.png" title="example image" class="img-fluid" %}
+        <img style="padding: 5% 5% 5% 5%; background: linear-gradient(90deg, rgba(18,70,29,1) 0%, rgba(16,92,28,1) 100%) !important;" class="card-img bg-white rounded" src="/assets/img/techcrunch_robotics.png"
+          alt="Card image cap"> 
     </a>
 </div>
 
